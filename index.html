@@ -1,13 +1,415 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title>lambda-tx: The Ultimate Async</title>
-    <link rel="shortcut icon" href="/static/ico/lambda-tx-favicon.png" />
-    <link href="/static/css/site.css" rel="stylesheet" />
+
+    <meta charset="UTF-8">
+    <title>lambda tx >>= Functional Programming in the Lone Star State</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,400italic,700,500,100italic,300,300italic,500italic,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <!-- JS Code -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
-  <a href="http://github.com/lambda-tx">
-    <img src="/static/img/Twisted-Lisp-Logo-7.4-medium.png"/>
-  </a>
+
+    <section class="section-one" data-type="background" data-speed="10">
+
+        <div class="inner cf">
+
+			 <div class="left-content">
+
+				 <span class="firstline">lambda tx</span>
+
+				 <span class="secondline">Learning, sharing, and advocating for
+                    <br /><strong>Functional Programming</strong><br />
+				 in the Lone Star State</span>
+
+			 </div>
+
+			 <div class="right-content">
+
+            	<img class="icon" src="images/icons/icon-lambda_16.png">
+            	<img class="icon" src="images/icons/icon-laptop_16.png">
+            	<img class="icon" src="images/icons/icon-network_16.png">
+
+             </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="section-two" data-type="background" data-speed="10">
+
+    	<div class="divider-wrapper">
+					<div>
+						<span class="divider-triangle"></span>
+					</div>
+
+		</div>
+
+        <div class="inner cf">
+
+            <div class="left-content">
+
+                <p class="section-intro">Functional programming is about
+                    units of code that depend only upon inputs and not upon
+                    shared or implicit state.</p>
+
+                <p>FP has its roots in the lambda calculus developed by Alonzo
+                    Church in the 1930s, originally created to explore the
+                    difficult problems of computability and understanding the
+                    foundations of mathematics.</p>
+
+                <p>Today, FP languages drive some of the most sophisticated
+                    applications deployed around the globe today. FP is used by
+                    everything from the communications and high finance to
+                    computing and academia.</p>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section class="section-three" data-type="background" data-speed="10">
+
+        <div class="inner cf">
+
+            <div class="left-content">
+
+                <p class="section-intro">Texas is a wild and independent land, full of vision and
+                    promise. It's wide open panoramic landscapes offer unimpeded
+                    views under skies that shine with color.</p>
+
+                <p>The hearts and minds of a people reflect the land in which
+                    they live; as such, Texas provides a fertile ground capable
+                    of nurturing the new direction that functional programming
+                    can bring our beleaguered industry.</p>
+
+                <p>Texas has along history as a home for computing technology.
+                    In addition to these success stories, considerable tech
+                    companies that have formed here, Texas hosts such industry
+                    giants as Google, HP, Cisco, Microsoft, IBM, and VMware. </p>
+
+            </div>
+
+            <div class="right-content">
+
+                <div class="right-content-title-box">
+                	<span class="firstline">Texas and Technology</span>
+                	<span class="secondline">at a glance</span>
+                </div>
+
+                <ul class="timeline">
+
+                    <li id="title2" class="item cf">
+                        <span class="date">1919</span>
+                        <span class="project">
+                            <a href="#title1">Tandy<span class="caret"></span></a>
+                        </span>
+                        <ul class="linklist">
+                            <li><a href="#">1919 - Hinckley-Tandy Leather Company formed in Dallas area</a></li>
+                            <li><a href="#">1963 - Tandy acquired RadioShack</a></li>
+                            <li><a href="#">1977 - TRS-80 Helped start PC Revolution</a></li>
+                        </ul>
+                    </li>
+
+                    <li id="title2" class="item cf">
+                        <span class="date">1930</span>
+                        <span class="project">
+                            <a href="#title1">Texas Instruments<span class="caret"></span></a>
+                        </span>
+                        <ul class="linklist">
+                            <li><a href="#">1930 - Geophysical Service Inc. founded</a></li>
+                            <li><a href="#">1951 - Renamed Texas Instruments</a></li>
+                            <li><a href="#">1954 - first transistor radio</a></li>
+                            <li><a href="#">1958 - first integrated circuit</a></li>
+                            <li><a href="#">1961 - produced first integrated circuit-based computer</a></li>
+                            <li><a href="#">1980s - developed and sold the Explorer computer family of LISP machines</a></li>
+                        </ul>
+                    </li>
+
+                    <li id="title2" class="item cf">
+                        <span class="date">1962</span>
+                        <span class="project">
+                            <a href="#title1">Electronic Data Systems<span class="caret"></span></a>
+                        </span>
+                        <ul class="linklist">
+                            <li><a href="#">1962 - Founded by Ross Perot</a></li>
+                            <li><a href="#">1984 - Acquired by GM</a></li>
+                            <li><a href="#">2008 - Acquired by HP</a></li>
+                        </ul>
+                    </li>
+
+                    <li id="title2" class="item cf">
+                        <span class="date">1976</span>
+                        <span class="project">
+                            <a href="#title1">National Instruments<span class="caret"></span></a>
+                        </span>
+                        <ul class="linklist">
+                            <li><a href="#">1976 - founded in a garage</a></li>
+                            <li><a href="#">1986 - released LabVIEW</a></li>
+                        </ul>
+                    </li>
+
+                    <li id="title2" class="item cf">
+                        <span class="date">1980</span>
+                        <span class="project">
+                            <a href="#title1">BMC Software<span class="caret"></span></a>
+                        </span>
+                        <ul class="linklist">
+                            <li><a href="#">1970s - founders programmed together in a partnership</a></li>
+                            <li><a href="#">1980 - incorporated in Texas</a></li>
+                            <li><a href="#">Pioneered business service management in IT</a></li>
+                        </ul>
+                    </li>
+
+                    <li id="title3" class="item cf">
+                        <span class="date">1982</span>
+                        <span class="project">
+                            <a href="#title1">Compaq<span class="caret"></span></a>
+                        </span>
+                        <ul class="linklist">
+                            <li><a href="#">1982 - Former TI senior managers started Compaq in  </a></li>
+                            <li><a href="#">1986 - Youngest company to make Fortune 500</a></li>
+                            <li><a href="#">1990s - Largest supplier of PC systems</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li id="title3" class="item cf">
+                        <span class="date">1984</span>
+                        <span class="project">
+                            <a href="#title1">Dell<span class="caret"></span></a>
+                        </span>
+                        <ul class="linklist">
+                            <li><a href="#">1984 - Michael Dell started Dell in UT dorm</a></li>
+                            <li><a href="#">1992 - Michael Dell the youngest Fortune 500 CEO</a></li>
+                            <li><a href="#">1999 - Surpassed Compaq as largest PC maker</a></li>
+                        </ul>
+                    </li>
+
+                    <li id="title4" class="item cf">
+                        <span class="date">1991</span>
+                        <span class="project">
+                            <a href="#title1">id Software<span class="caret"></span></a>
+                        </span>
+                        <ul class="linklist">
+                            <li><a href="#">1991 - id founded</a></li>
+                            <li><a href="#">1993 - made computer game history with Doom</a></li>
+                        </ul>
+                    </li>
+
+                    <li id="title4" class="item cf">
+                        <span class="date">1994</span>
+                        <span class="project">
+                            <a href="#title1">Data Foundry<span class="caret"></span></a>
+                        </span>
+                        <ul class="linklist">
+                            <li><a href="#">1994 - founded as Texas.net</a></li>
+                            <li><a href="#">first ISP in San Antonio</a></li>
+                            <li><a href="#">among the first 50 ISPs in the US</a></li>
+                        </ul>
+                    </li>
+
+                    <li id="title5" class="item cf">
+                        <span class="date">1996</span>
+                        <span class="project">
+                            <a href="#title1">Aspyr<span class="caret"></span></a>
+                        </span>
+                        <ul class="linklist">
+                            <li><a href="#">1996 - Aspyr founded</a></li>
+                            <li><a href="#">2003 - published the game Call of Duty</a></li>
+                            <li><a href="#">2005 - published the Civ IV game</a></li>
+                        </ul>
+                    </li>
+
+                    <li id="title5" class="item cf">
+                        <span class="date">1996</span>
+                        <span class="project">
+                            <a href="#title1">Ion Storm<span class="caret"></span></a>
+                        </span>
+                        <ul class="linklist">
+                            <li><a href="#">1996 - Ion Storm founded</a></li>
+                            <li><a href="#">2000 - made computer game history with Deus Ex</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li id="title5" class="item cf">
+                        <span class="date">1996</span>
+                        <span class="project">
+                            <a href="#title1">Rackspace<span class="caret"></span></a>
+                        </span>
+                        <ul class="linklist">
+                            <li><a href="#">1996 - Cymitar Network Systems started</a></li>
+                            <li><a href="#">1997 - renamed to Cymitar Technology Group</a></li>
+                            <li><a href="#">1998 - relaunched as Rackspace</a></li>
+                            <li><a href="#">2010 - cofounded the OpenStack project with NASA programmers</a></li>
+                        </ul>
+                    </li>
+
+                    <li id="title5" class="item cf">
+                        <span class="date">2009</span>
+                        <span class="project">
+                            <a href="#title1">VCE<span class="caret"></span></a>
+                        </span>
+                        <ul class="linklist">
+                            <li><a href="#">2009 - VMware-Cisco-EMC alliance formed in Dallas and Silcon Valley</a></li>
+                            <li><a href="#">2011 - renamed to Virtual Computing Environment coallition</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section-two" data-type="background" data-speed="10">
+
+        <div class="divider-wrapper">
+                    <div>
+                        <span class="divider-triangle-brown"></span>
+                    </div>
+
+        </div>
+
+        <div class="inner cf">
+
+            <div class="left-content">
+
+                <p class="section-intro">Meet other lambda-tejans.</p>
+
+                <p>What we talk about.</p>
+
+                <p>Where to find us.</p>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+    <section class="section-four" data-type="background" data-speed="10">
+
+        <div class="inner">
+
+            <p class="section-intro">lambda tx actively supports
+                passionate functional programmers.</p>
+
+            <p>And one of the things we're most passionate about is our
+                languages. Our initial focus is around helping others gain more
+                exposure around as well as advocating on behalf of the languages
+                listed below.
+            </p>
+
+            <ul class="peoplegrid cf">
+
+                <!-- <li class="person">
+                    <div class="inner"><img src="images/glamour-shots/chicken.png" class="portrait" /><span class="name">Chicken Scheme</span><span class="title">Scheme</span></img></div>
+                </li> -->
+
+                <li class="person">
+                    <div class="inner"><img src="images/glamour-shots/clojure.png" class="portrait" /><span class="name">Clojure</span><span class="title">JVM</span></img></div>
+                </li>
+
+                <li class="person">
+                    <div class="inner"><img src="images/glamour-shots/lisp.png" class="portrait" /><span class="name">Common Lisp</span><span class="title"></span></img></div>
+                </li>
+
+                <li class="person">
+                    <div class="inner"><img src="images/glamour-shots/elixir.png" class="portrait" /><span class="name">Elixir</span><span class="title">Erlang</span></img></div>
+                </li>
+
+                <li class="person">
+                    <div class="inner"><img src="images/glamour-shots/erlang.png" class="portrait" /><span class="name">Erlang</span><span class="title">Erlang</span></img></div>
+                </li>
+
+                <li class="person">
+                    <div class="inner"><img src="images/glamour-shots/f-sharp.png" class="portrait" /><span class="name">F#</span><span class="title">.Net</span></img></div>
+                </li>
+
+                <li class="person">
+                    <div class="inner"><img src="images/glamour-shots/haskell.png" class="portrait" /><span class="name">Haskell</span><span class="title"></span></img></div>
+                </li>
+
+                <li class="person">
+                    <div class="inner"><img src="images/glamour-shots/lfe.png" class="portrait" /><span class="name">LFE</span><span class="title">Erlang</span></img></div>
+                </li>
+
+                <li class="person">
+                    <div class="inner"><img src="images/glamour-shots/ocaml.png" class="portrait" /><span class="name">OCaml</span><span class="title"></span></img></div>
+                </li>
+
+                <li class="person">
+                    <div class="inner"><img src="images/glamour-shots/racket.png" class="portrait" /><span class="name">Racket</span><span class="title">Scheme</span></img></div>
+                </li>
+
+                <li class="person">
+                    <div class="inner"><img src="images/glamour-shots/scala.png" class="portrait" /><span class="name">Scala</span><span class="title">JVM</span></img></div>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </section>
+
+    <section class="section-two" data-type="background" data-speed="10">
+
+        <div class="divider-wrapper">
+                    <div>
+                        <span class="divider-triangle-grey"></span>
+                    </div>
+
+        </div>
+
+        <div class="inner cf">
+
+            <div class="left-content">
+
+                <p class="section-intro">Find us.</p>
+
+                <p>Social links.</p>
+
+                <p>Google map.</p>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section class="section-five">
+
+        <div class="inner">
+
+            <p>The original design templates for this site were lovingly crafted
+                by Patrick Deuley, <br />
+                Ernie Hsiung and Eric Weidner from the Racker Tools team at
+                Rackspace.<br /></p>
+            <p>If there's something you see on here that needs changes, feel
+                free to <br />
+                clone
+                <a href="https://github.com/lambda-tx/lambda-tx.github.com"
+                   target="_blank">the repo</a>
+                and send a pull request. Thanks!</p>
+
+        </div>
+
+    </section>
+
+
 </body>
 </html>
