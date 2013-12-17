@@ -564,13 +564,14 @@ ADENDA.....................................1752
 			width:100%;
 			min-height:550px;
 				z-index: 200;
-			background:#020403 url(../img/texas-night-sky.png) 50% 0 fixed;
+			background:#020403 url(../img/texas-land-and-sun.png) repeat-x fixed;
 		}
 
 		.bg{
 			width:100%;
 			height:100%;
-			background:url(../img/bg-figure.png) 50% 0 fixed;
+			/* background:url(../img/bg-figure.png) 50% 0 fixed;
+			*/
 		}
 
 
@@ -590,7 +591,7 @@ ADENDA.....................................1752
 			width:100%;
 			min-height:600px;
 				z-index: 200;
-			background:#020403 url(../img/texas-night-sky.png) 50% 0 fixed;
+			background:#020403 url(../img/texas-land-and-sun.png) 50% 0 fixed;
 		}
 
 		#slogan-section-3 {
@@ -1752,19 +1753,15 @@ ADENDA.....................................1752
 
 /********************* ADDENDA *****************************/
 
-p {
+p.section-intro {
     font-size: 14pt;
     line-height: 2em;
     margin-bottom: 1.5em;
 
-    &.section-intro {
-        font-size: 30pt;
-        font-weight: 200;
-        line-height: 1.4em;
-        color: #7951a1;
-
-    }
-
+    font-size: 30pt;
+    font-weight: 200;
+    line-height: 1.4em;
+    color: #7951a1;
 }
 
             .timeline {
@@ -1853,3 +1850,15 @@ p {
                         }
                     }
                 }
+             }
+
+
+.cf {
+  *zoom: 1; }
+  .cf:before, .cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */ }
+  .cf:after {
+    clear: both; }
