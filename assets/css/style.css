@@ -97,7 +97,7 @@ ADENDA.....................................1752
 
 
 		#header-section {
-			background: #222 url(../img/texas-night-sky.png) bottom center repeat-x fixed;
+			background: #222 url(../img/texas-night-sky.jpg) bottom center repeat-x fixed;
 			height: 650px;
 			height: 650px;
 			width: 100%;
@@ -567,7 +567,7 @@ ADENDA.....................................1752
 			width:100%;
 			min-height:550px;
 				z-index: 200;
-			background:#2f3032 url(../img/texas-moon-cactus.png) repeat-x fixed;
+			background:#2f3032 url(../img/texas-moon-cactus.jpg) repeat-x fixed;
 		}
 
 		.bg{
@@ -594,7 +594,7 @@ ADENDA.....................................1752
 			width:100%;
 			min-height:600px;
 				z-index: 200;
-			background:#020403 url(../img/texas-land-and-sun.png) repeat-x fixed;
+			background:#020403 url(../img/texas-land-and-sun.jpg) repeat-x fixed;
 		}
 
 		#slogan-section-3 {
