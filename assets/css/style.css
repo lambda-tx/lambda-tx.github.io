@@ -67,7 +67,10 @@ ADENDA.....................................1752
 			color:rgba(250, 250, 250 , 1);
 		}
 		.footer-color {
-			color: #241811;
+			/* brown */
+			/* color: #241811; */
+			/* blue */
+			color: #545474;
 		}
 
 	/********************** /THEME COLORS *************************/
@@ -97,7 +100,7 @@ ADENDA.....................................1752
 
 
 		#header-section {
-			background: #222 url(../img/texas-night-sky.jpg) bottom center repeat-x fixed;
+			background: #3e3e56 url(../img/texas-night-sky.jpg) bottom center repeat-x fixed;
 			height: 650px;
 			height: 650px;
 			width: 100%;
@@ -649,13 +652,13 @@ ADENDA.....................................1752
 	}
 
 	#contact-section {
-		background: #241811 /*url(../img/png.png) top left repeat;*/;
+		background: #545474 /*url(../img/png.png) top left repeat;*/;
 		z-index:10;
 		color:#fff;
 
 	}
 	#contact-section .white{
-		background: #241811;
+		background: #545474;
 	}
 
 	#map-section {
@@ -695,7 +698,7 @@ ADENDA.....................................1752
 
 	.arrow_box:after {
 		border-color: rgba(65, 129, 1, 0);
-		border-top-color: #241811;
+		border-top-color: #545474;
 		border-width: 10px;
 		left: 50%;
 
