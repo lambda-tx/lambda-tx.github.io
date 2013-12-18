@@ -1776,11 +1776,15 @@ p.section-intro-dark {
     color: #fff;
 }
 
-p {
+p, ul.linklist li, span.date {
     font-size: 14pt;
     line-height: 2em;
     margin-bottom: 1.5em;
     font-weight: 300;
+}
+
+ul.linklist li {
+	line-height: 0.25em;
 }
 
 .person {
