@@ -567,7 +567,7 @@ ADENDA.....................................1752
 			width:100%;
 			min-height:550px;
 				z-index: 200;
-			background:#020403 url(../img/texas-land-and-sun.png) repeat-x fixed;
+			background:#62560e url(../img/texas-land-and-sun.png) repeat-x fixed;
 		}
 
 		.bg{
@@ -1793,3 +1793,46 @@ p {
     /* 2 */ }
   .cf:after {
     clear: both; }
+
+
+.person {
+
+    width : 20%;
+    float: left;
+    display: block;
+    position: relative;
+    height: 200px;
+    text-align: text-top;
+}
+
+.portrait {
+    display: block;
+    max-width : 60%;
+    border-radius: 150px;
+    border: 5px solid #999;
+    margin : 0 auto;
+    transition: all 0.2s ease;
+
+    &:hover {
+        max-width: 80%;
+    }
+}
+
+.name {
+    display: block;
+    font-weight: 400;
+    margin-top: 0.5em;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.title {
+    display: block;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin-top: .2em;
+    font-size: .9em;
+    opacity: .7;
+}
+
